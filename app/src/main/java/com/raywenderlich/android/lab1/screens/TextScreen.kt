@@ -40,7 +40,6 @@ fun MyText() {
         color= colorResource(id = R.color.black),
         fontSize = 30.sp,
         fontWeight = FontWeight.Bold
-
     )
 
 }
