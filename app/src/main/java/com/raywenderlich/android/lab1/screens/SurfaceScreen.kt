@@ -34,10 +34,10 @@ fun MySurface (modifier: Modifier)
 {
 Surface(
     modifier=modifier.size(100.dp),
-    color = Color.White,
-    contentColor = colorResource(id = R.color.purple_200),
+    color = colorResource(id = R.color.purple_200),
+    contentColor = colorResource(id = R.color.white),
     elevation=1.dp,
-    border =BorderStroke(1.dp,Color.Blue)
+    border =BorderStroke(1.dp,colorResource(id = R.color.purple_500))
 ){
     MyColumn()
 }
