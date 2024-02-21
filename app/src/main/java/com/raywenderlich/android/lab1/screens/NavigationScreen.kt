@@ -29,7 +29,8 @@ fun NavigationScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
-            NavigationButton(stringResource(id = R.string.button_view_text), Screen.Text)
+
+          /*  NavigationButton(stringResource(id = R.string.button_view_text), Screen.Text)
             NavigationButton(stringResource(id = R.string.button_textField), Screen.TextField)
             NavigationButton(stringResource(id = R.string.button_buttons), Screen.Buttons)
             NavigationButton(stringResource(id = R.string.button_progress), Screen.ProgressIndicator)
@@ -38,7 +39,10 @@ fun NavigationScreen() {
             NavigationButton(stringResource(id = R.string.button_column), Screen.Column)
             NavigationButton(stringResource(id = R.string.button_box), Screen.Box)
             NavigationButton(stringResource(id = R.string.button_surface), Screen.Surface)
-            NavigationButton(stringResource(id = R.string.button_scaffold), Screen.Scaffold)
+            NavigationButton(stringResource(id = R.string.button_scaffold), Screen.Scaffold)*/
+            NavigationButton(stringResource(id = R.string.button_scrolling), Screen.Scrolling)
+            NavigationButton(stringResource(id = R.string.button_list), Screen.List)
+            NavigationButton(stringResource(id = R.string.button_grid), Screen.Grid)
         }
     }
 }
